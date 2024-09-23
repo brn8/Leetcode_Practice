@@ -2,10 +2,7 @@
  * @param {number[][]} intervals
  * @return {number[][]}
  */
-/**
- * @param {number[][]} intervals
- * @return {number[][]}
- */
+
 var merge = function(intervals) {
 	intervals.sort((a, b) => a[0] - b[0]);
 	let starting=intervals[0][0];
